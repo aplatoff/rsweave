@@ -1,0 +1,13 @@
+[package]
+name = "rwcrypto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rsa = "0.9.6"
+rand = "0.8.4"
+sha2 = { version = "0.10.6", features = ["asm", "asm-aarch64"] }
+num-bigint = { version = "0.8.2", package = "num-bigint-dig" }
+
+[dev-dependencies]
+hex-literal = "0.4"
